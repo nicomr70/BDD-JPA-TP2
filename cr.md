@@ -1,0 +1,1 @@
+Pas forcément, entre le Client et la Commande par exemple, on aurait juste pu garder la reference du Client dans la Commande.
