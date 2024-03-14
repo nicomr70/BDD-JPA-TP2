@@ -1,0 +1,1 @@
+J'ai choisi le mode "TABLE_PER_CLASS" car c'est plus simple et lisible pour moi, par rapport aux autres stratégies.
