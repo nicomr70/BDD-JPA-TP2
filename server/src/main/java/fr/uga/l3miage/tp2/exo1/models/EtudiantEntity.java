@@ -12,7 +12,6 @@ public class EtudiantEntity {
     @Column(name = "agalan")
     private Long agalan;
 
-
     @Column(name = "nom")
     private String nom;
 
