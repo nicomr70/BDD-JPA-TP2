@@ -15,6 +15,7 @@ Dans cet exercice, vous allez apprendre à :
 2. Modéliser ces classes en JPA en choisissant le mode d'héritage que vous souhaitez : 
     * ![association fédération](doc/exo2/img.png)
 3. Expliquer pourquoi avoir choisi ce mode en particulier
---- 
+4. j'ai choisi le mode table_per_classe car ici comme on parle d'employés, on a juste besoin d'avoir la table pour chaque fonction dans l'entreprise.
+ --- 
 
 # <div style="text-align: center;">Fin de l'exo 2</div>
