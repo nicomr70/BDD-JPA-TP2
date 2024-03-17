@@ -12,7 +12,7 @@ Dans cet exercice, vous allez apprendre à :
 ## Dans le paradigme `validate`
 
 1. Modéliser ses tables existantes en base, en JPA :
- * ![dev_miage](doc/exo1/img.png)
+ * ![dev_image](doc/exo1/img.png)
 
 ## Dans le mode `create`
 
