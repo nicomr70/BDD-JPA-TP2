@@ -19,6 +19,6 @@ public class Commande {
     @ManyToOne
     private Client client;
 
-    @OneToMany(mappedBy = "commande")
+    @OneToMany
     private Set<Produit> produits;
 }

@@ -19,6 +19,5 @@ public class Produit {
     @ManyToOne
     private CategorieDeProduit categorie;
 
-    @ManyToOne
-    private Commande commande;
+
 }
