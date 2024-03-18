@@ -17,9 +17,6 @@ public class ProduitEntity {
 
     private Integer quantite;
 
-    @ManyToOne
-    private CommandeEntity commande;
-
     @ManyToMany(mappedBy = "produitss")
     private Set<CtegorieDeProduitEntity> categories;
 }
