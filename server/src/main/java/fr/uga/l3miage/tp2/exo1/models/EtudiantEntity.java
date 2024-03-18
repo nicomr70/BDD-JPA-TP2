@@ -4,13 +4,13 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-public class Etudiant {
+public class EtudiantEntity {
     @Id
     private Long agalan;
 
     private String nom;
     private String email;
 
-    @ManyToMany(mappedBy="agalan")
+    @ManyToMany(mappedBy="etudiants")
     private Set<ClubSportif> clubs;
 }

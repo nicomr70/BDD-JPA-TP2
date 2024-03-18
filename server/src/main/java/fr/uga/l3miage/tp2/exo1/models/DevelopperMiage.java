@@ -11,6 +11,6 @@ public class DevelopperMiage {
     private String firstname;
     private String email;
 
-    @ManyToMany(mappedBy="lastname")
-    private Set<Projet> projets;
+    @ManyToMany(mappedBy="developpers")
+    private Set<ProjetEntity> projets;
 }

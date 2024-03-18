@@ -12,5 +12,5 @@ public class ClubSportif {
     private String description;
 
     @ManyToMany
-    private Set<Etudiant> etudiants;
+    private Set<EtudiantEntity> etudiants;
 }

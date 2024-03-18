@@ -6,7 +6,7 @@ import java.util.Set;
 
 @Entity
 @Table(name="projet")
-public class Projet {
+public class ProjetEntity {
     @Id
     private BigInteger id;
     private String name;
