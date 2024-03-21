@@ -7,7 +7,7 @@ import javax.persistence.Id;
 @Entity
 @DiscriminatorValue("M")
 
-public class ManagerEntity {
+public class ManagerEntity extends EmployeEntity {
     @Id
     private String niveauGestion ;
 }
