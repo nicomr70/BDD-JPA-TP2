@@ -3,7 +3,7 @@ package fr.uga.l3miage.tp2.exo3.models;
 import javax.persistence.*;
 
 @Entity
-public class Adresse {
+public class AdresseEntity {
 
     @Id
     private Long id;
