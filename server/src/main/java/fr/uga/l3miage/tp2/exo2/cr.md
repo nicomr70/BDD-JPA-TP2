@@ -1,0 +1,1 @@
+On a choisi le mode SINGLE_TABLE parce qu'il est simple pour les héritages pas grands et donc par conséquent, on peut avoir tout les attributs des tables qui héritent de la classe mère dans la table mère. 
