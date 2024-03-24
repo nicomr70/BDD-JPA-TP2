@@ -18,6 +18,6 @@ public class ProjetEntity {
     @Column(name = "description")
     private String description;
 
-    @ManyToMany
+    @ManyToMany(mappedBy="projets")
     private Set<DeveloperMiage> developerMiages;
 }
