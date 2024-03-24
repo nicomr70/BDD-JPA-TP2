@@ -1,0 +1,2 @@
+
+`Oui`, c'est important car selon la logique du métier, la relation a de l'importance pour l'accès aux données des deux côtés de la relation, modifiant la base de données et maintenant les entités dans les opérations qui nécessitent le bidirectionnel.
