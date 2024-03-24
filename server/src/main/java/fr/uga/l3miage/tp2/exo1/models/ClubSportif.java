@@ -5,7 +5,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-public class ClubSportif {
+public class ClubSportifEntity {
 
     @Id
     private Long id;
