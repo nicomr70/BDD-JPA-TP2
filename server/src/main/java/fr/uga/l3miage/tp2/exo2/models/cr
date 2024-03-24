@@ -1,0 +1,4 @@
+J'ai choisi la stratégie Single Table
+Parce qu'on n'a que deux classes dérivées avec 1 et 2 d'attributs unique.
+Pour la simplicité, la performance des requetes et le hiérachie d'entités n'est pas trop large
+cette stratégie pourrait etre le meilleur choix.
