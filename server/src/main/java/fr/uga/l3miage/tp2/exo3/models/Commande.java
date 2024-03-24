@@ -13,5 +13,9 @@ public class Commande {
     private Double montantTotal;
     @ManyToOne
     private Client client;
+    
+    @OneToMany
+    @JoinColumn(name = "id_produit",referencedColumnName = "id")
+    private Set<ProduitEntity> produits;
 
 }
