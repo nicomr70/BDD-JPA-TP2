@@ -17,6 +17,6 @@ public class DeveloperMiageEntity {
     @Column(name = "email")
     private String email;
 
-    @ManyToMany(mappedBy = "developerMiages")
+    @ManyToMany
     private Set<Projet> projets;
 }
